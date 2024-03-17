@@ -5,9 +5,7 @@ pipeline{
     }
     
     // here 'any' means execute pipeline on any available server-> which is current VM for us
-    agent {
-        label 'linux_node'
-    }
+    agent any
     
     stages{
         
