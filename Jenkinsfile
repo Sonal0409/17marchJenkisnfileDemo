@@ -12,7 +12,7 @@ pipeline{
         stage('Clone Repo'){
             
             steps{
-                git 'https://github.com/Sonal0409/DevOpsCodeDemo.git'
+                git 'https://github.com/natmat3017/march17.git'
             }
             
         }
